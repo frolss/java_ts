@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-07T14:50:04" hostname="DESKTOP-U77SFMH" time="2.247">
+  <properties/>
+  <testcase name="testGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="2.247"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1617806995961	geckodriver	INFO	Listening on 127.0.0.1:27761
+1617806996476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\4227~1\\AppData\\Local\\Temp\\rust_mozprofile7tA3Up"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617807002346	Marionette	INFO	Listening on port 51686
+1617807002813	Marionette	WARN	TLS certificate errors will be ignored for this session
+апр 07, 2021 5:50:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1617807006885	Marionette	INFO	Stopped listening on port 51686
+[Parent 12184, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
