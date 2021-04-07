@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.ContactCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-07T14:04:15" hostname="DESKTOP-U77SFMH" time="3.967">
+  <properties/>
+  <testcase name="testContactCreation" classname="ru.stqa.pft.addressbook.tests.ContactCreationTest" time="3.967"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1617804195405	geckodriver	INFO	Listening on 127.0.0.1:29576
+1617804196712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\4227~1\\AppData\\Local\\Temp\\rust_mozprofilezGlL2E"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1617804242606	Marionette	INFO	Listening on port 50118
+1617804243112	Marionette	WARN	TLS certificate errors will be ignored for this session
+апр 07, 2021 5:04:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1617804259237	Marionette	INFO	Stopped listening on port 50118
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
