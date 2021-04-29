@@ -7,7 +7,7 @@ public class GroupData {
     private final String footer;
 
     public GroupData(int id, String name, String header, String footer) {
-        this.id = Integer.MAX_VALUE;
+        this.id = Integer.MIN_VALUE;
         this.name = name;
         this.header = header;
         this.footer = footer;

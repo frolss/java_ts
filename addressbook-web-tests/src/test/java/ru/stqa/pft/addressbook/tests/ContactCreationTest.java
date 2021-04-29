@@ -5,7 +5,7 @@ import ru.stqa.pft.addressbook.model.ContactData;
 
 public class ContactCreationTest extends TestBase{
 
-    @Test
+    @Test (enabled = false)
     public void testContactCreation() throws Exception {
         app.getContactHelper().initContactCreation();
         app.getContactHelper().fillContactCreation(new ContactData("Petr", "Petrovich", "cucu@mail.ru", "wew"));
