@@ -1,4 +1,4 @@
-ru/stqa/pfr/sandbox/EquationTests.java
- ru.stqa.pfr.sandbox.EquationTests
-ru/stqa/pfr/sandbox/SquareTests.java
- ru.stqa.pfr.sandbox.SquareTests
+ru/stqa/pft/sandbox/SquareTests.java
+ ru.stqa.pft.sandbox.SquareTests
+ru/stqa/pft/sandbox/EquationTests.java
+ ru.stqa.pft.sandbox.EquationTests
